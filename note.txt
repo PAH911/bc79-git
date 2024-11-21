@@ -18,3 +18,8 @@ git add -A
 git commit -m "Create home page html" (Message miêu tả chức năng, những gì mình làm)
 git push -u origin [tên nhánh hiện tại] ( Dành cho lần đầu khi chưa có nhánh master trên github)
 git push: cho những lần đẩy thứ 2 trở đi
+
+---\/// 111222
+sadsad
+dsads
+123
