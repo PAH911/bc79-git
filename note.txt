@@ -1,0 +1,14 @@
+--Đẩy code từ local lên remote
++ repository local: source code trong máy tính
++ repository remote: source code lưu trên github
+
+--Liên kết visual code và github
+git config --global user.name "Your name" 
+git config --global user.email "your@email.com"
+
+--Kiểm tra sau khi cấu hình
+git config --global user.name 
+git config --global user.email
+
+--Liên kết giữa repo local và repo remote
+git remote add origin url-repo (url-repo thay thế bằng đg dẫn repo)
