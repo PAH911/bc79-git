@@ -23,8 +23,14 @@ git push: cho những lần đẩy thứ 2 trở đi
 --Gom code từ login về master (đứng tại nhánh master)
 git merge login
 
+--Xung đột code ( conflict code ) : xảy ra khi mer ge và pull => tuỳ trường hợp sẽ option phù hợp nhất ( incomming, current, keep both)
+
 --Tạo nhánh
 git checkout -b [tên nhánh]
 
 --Chuyển nhánh
 git checkout [tên nhánh]
+
+--Lấy repo trên git về
+git clone [link github] . ( dấu chấm nghĩa là chỉ lấy source về mà ko tạo folder trung gian)
+git clone [link github] ( lấy source về và tạo folder trung gian và lấy folder đó làm repo)
