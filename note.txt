@@ -22,3 +22,9 @@ git push: cho những lần đẩy thứ 2 trở đi
 
 --Gom code từ login về master (đứng tại nhánh master)
 git merge login
+
+--Tạo nhánh
+git checkout -b [tên nhánh]
+
+--Chuyển nhánh
+git checkout [tên nhánh]
